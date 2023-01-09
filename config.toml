@@ -43,7 +43,7 @@ animate = true
   [params.navbar]
   align = "ms-auto"
   brandName = "Kristján Ævarsson"
-  disableSearch = false
+  disableSearch = true
 
     [params.navbar.menus]
     disableAbout = false
