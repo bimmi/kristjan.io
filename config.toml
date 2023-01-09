@@ -16,20 +16,20 @@ unsafe = true
 [[Menus.main]]
 identifier = "blog"
 name = "Blog"
-title = "Blog posts"
+title = "Blog"
 url = "/blogs"
 weight = 1
 
 [[Menus.main]]
 identifier = "gallery"
 name = "Gallery"
-title = "Blog posts"
+title = "Blog"
 url = "/gallery"
 weight = 2
 
 [params]
-title = "Hugo Profile"
-description = "Text about my cool site"
+title = "Kristján Ævarsson"
+description = "Upplýsingar og verkefni"
 favicon = "/fav.png"
 useBootstrapCDN = false
 animate = true
@@ -57,20 +57,20 @@ animate = true
   enable = true
   intro = "Hæ, ég heiti"
   title = "Kristján"
-  subtitle = "I build things for the web"
-  content = "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+  subtitle = "Fyrirsögn hér"
+  content = "Intro texti hér"
   image = "/images/hero.svg"
 
     [params.hero.button]
     enable = true
-    name = "Resume"
-    url = "#"
-    download = true
+    name = "CV"
+    url = "#about"
+    download = false
     newPage = false
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
-icon = "fab fa-github"
-url = "https://example.com"
+icon = "fab fa-linkedin"
+url = "https://www.linkedin.com/in/kristjan-aevarsson"
 
 [[params.hero.socialLinks.fontAwesomeIcons]]
 icon = "fab fa-twitter"
@@ -82,7 +82,7 @@ url = "https://example.com"
 
   [params.about]
   enable = true
-  title = "About Me"
+  title = "Um mig"
   image = "/images/me.png"
   content = """
 I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. 
@@ -99,21 +99,21 @@ I am currently working on a project that will be used to help people find the be
 
     [[params.experience.items]]
     job = "Senior Software Developer"
-    company = "Facebook"
-    companyUrl = "https://example.com"
-    date = "Jan 2022 - present"
+    company = "Stefna"
+    companyUrl = "https://www.stefna.is"
+    date = "2006 - present"
     content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
       [params.experience.items.featuredLink]
       enable = true
-      name = "View the project"
-      url = "https://example.com"
+      name = "Verkefnin"
+      url = "https://www.stefna.is/is/verkefnin"
 
     [[params.experience.items]]
-    job = "Software Developer"
-    company = "Amazon"
-    companyUrl = "https://example.com"
-    date = "Sep 2020 - Dec 2021"
+    job = "Verslunarstjóri"
+    company = "Bónus"
+    companyUrl = "https://www.bonus.is"
+    date = "1997 - 2003"
     content = """
 I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
 
@@ -122,7 +122,7 @@ I am currently working as a software developer at [example org.](https://example
 """
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
 
       [params.experience.items.info]
@@ -130,9 +130,9 @@ I am currently working as a software developer at [example org.](https://example
       content = "I worked as a software developer for more than one year in Amazon."
 
     [[params.experience.items]]
-    job = "Junior Software Developer"
-    company = "Apple"
-    companyUrl = "https://example.com"
+    job = "Stefna"
+    company = "Stjórn"
+    companyUrl = "https://www.stefna.is"
     date = "Jan 2020 - Aug 2020"
     content = """
 I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
@@ -148,28 +148,6 @@ I am currently working as a software developer at [example org.](https://example
       enable = true
       url = "https://example.com"
 
-    [[params.experience.items]]
-    job = "UI/UX Designer"
-    company = "Netflix"
-    companyUrl = "https://example.com"
-    date = "June 2017 - Nov 2019"
-    content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
-"""
-
-      [params.experience.items.featuredLink]
-      enable = true
-      url = "https://example.com"
-
-    [[params.experience.items]]
-    job = "Product Designer"
-    company = "Google"
-    companyUrl = "https://example.com"
-    date = "Feb 2016 - Mar 2017"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
 
   [params.education]
   enable = true
@@ -177,8 +155,7 @@ I am currently working as a software developer at [example org.](https://example
 
     [[params.education.items]]
     title = "Master of Business Administration"
-    date = "2013 - 2015"
-    GPA = "3.8 out of 5.0"
+    date = "2020 - 2022"
     content = """
 Extracurricular Activities
   - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -303,9 +280,9 @@ Extracurricular Activities
 
   [params.contact]
   enable = true
-  content = "My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!"
-  email = "gurusabarisha@gmail.com"
-  btnName = "Mail me"
+  content = "Alltaf gaman að heyra í ykkur. Hvort sem það er spurning, hugmyndi eða bara segja halló. Geri mitt besta að svara!"
+  email = "bimmsi@gmail.com"
+  btnName = "Sendu mér póst"
 
 [params.footer.recentPosts]
 path = "blogs"
@@ -315,11 +292,10 @@ enable = true
 disableFeaturedImage = false
 
 [params.footer.socialNetworks]
-github = "https://github.com"
-linkedin = "https://linkedin.com"
-twitter = "https://twitter.com"
-instagram = "https://instagram.com"
-facebook = "https://facebook.com"
+linkedin = "https://www.linkedin.com/in/kristjan-aevarsson/"
+twitter = "https://twitter.com/bimmi"
+instagram = "https://www.instagram.com/kristjan_ae/"
+facebook = "https://facebook.com/bimmi"
 
   [params.listPages]
   disableFeaturedImage = false
