@@ -430,13 +430,13 @@ header .navbar.animate {
     opacity: 0.9;
 }
 
-#education .card .card-body > a h6 {
+#education .card .card-body > a h5 {
     display: inline-block;
     text-decoration: none;
     color: var(--primary-color) !important;
 }
 
-#education .card .card-body > a h6::after {
+#education .card .card-body > a h5::after {
     content: "";
     display: block;
     width: 0px;
@@ -447,7 +447,7 @@ header .navbar.animate {
     opacity: 0.5;
 }
 
-#education .card .card-body > a h6:hover::after, #education .card .card-body > a h6:focus::after, #education .card .card-body > a h6:active::after {
+#education .card .card-body > a h5:hover::after, #education .card .card-body > a h5:focus::after, #education .card .card-body > a h5:active::after {
     width: 100%;
 }
 
