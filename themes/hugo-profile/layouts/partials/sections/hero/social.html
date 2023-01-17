@@ -1,7 +1,7 @@
 <span id="loading-icons" style="display: {{ if .Site.Params.animate }}none{{else}}block{{ end }};">
     {{ range .Site.Params.hero.socialLinks.fontAwesomeIcons }}
     <span class="px-1">
-        <a href="{{ .url }}" alt="LinkedIn link" target="_blank" class="btn social-icon">
+        <a href="{{ .url }}" alt="LinkedIn link" aria-label="Lesa meira á LinkedIn" target="_blank" class="btn social-icon">
             <i class="{{ .icon }}"></i>
         </a>
     </span>
@@ -9,7 +9,7 @@
 
     {{ range .Site.Params.hero.socialLinks.customIcons }}
     <span class="px-1">
-        <a href="{{ .url }}" target="_blank" alt="LinkedIn link" class="btn social-icon">
+        <a href="{{ .url }}" target="_blank" alt="LinkedIn link" aria-label="Lesa meira á LinkedIn" class="btn social-icon">
             <img src="{{ .icon }}">
         </a>
     </span>
