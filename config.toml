@@ -209,7 +209,7 @@ Extracurricular Activities
     url = "https://example.com"
 
   [params.projects]
-  enable = true
+  enable = false
   title = "Verkefni"
 
     [[params.projects.items]]
