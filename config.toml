@@ -148,38 +148,30 @@ I am currently working as a software developer at [example org.](https://example
   title = "Menntun"
 
     [[params.education.items]]
-    title = "Master of Business Administration"
+    title = "Master's degree, Leadership and Management"
     date = "2020 - 2022"
     content = """
-Extracurricular Activities
-  - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique."""
+With major in Project Management.
+  """
 
       [params.education.items.school]
-      name = "University of California, Berkeley"
-      url = "https://example.org"
+      name = "Háskólinn á Bifrost"
+      url = "https://www.bifrost.is"
 
     [[params.education.items]]
-    title = "Bachelor of Science in Computer Science"
-    date = "2009 - 2013"
-    GPA = "3.9 out of 5.0"
+    title = "B.Sc, Computer Science"
+    date = "2003 - 2006"
     content = """
-I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-- [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-- Face mask detection using a single convolutional neural network.
-
-Extracurricular Activities
-  - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique."""
+  """
 
       [params.education.items.school]
-      name = "Massachusetts Institute of Technology"
-      url = "https://example.org"
+      name = "Háskólinn á Akureyri"
+      url = "https://www.unak.is"
 
       [params.education.items.featuredLink]
       enable = true
-      name = "My academic record"
-      url = "https://example.com"
+      name = "SKemman"
+      url = "https://skemman.is/handle/1946/1181"
 
 
   [params.achievements]
