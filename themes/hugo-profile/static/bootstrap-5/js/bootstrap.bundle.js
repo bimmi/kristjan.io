@@ -6474,14 +6474,14 @@
         }
 
         if (active.getAttribute('role') === 'tab') {
-          active.setAttribute('aria-selected', false);
+          active.setAttribute('baria-selected', false);
         }
       }
 
       element.classList.add(CLASS_NAME_ACTIVE);
 
       if (element.getAttribute('role') === 'tab') {
-        element.setAttribute('aria-selected', true);
+        element.setAttribute('baria-selected', true);
       }
 
       reflow(element);
