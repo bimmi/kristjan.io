@@ -57,8 +57,8 @@ animate = true
   enable = true
   intro = "Hæ, ég heiti"
   title = "Kristján"
-  subtitle = "Fyrirsögn hér"
-  content = "Intro texti hér"
+  subtitle = "Ævarsson"
+  content = ""
   image = "/images/hero.svg"
 
     [params.hero.button]
@@ -82,20 +82,20 @@ url = "https://www.linkedin.com/in/kristjan-aevarsson"
 Ég er stöðugt að vinna að spennandi verkefnum og prufa ýmsa tækni sem ég mun fjalla um hér."""
 
     [params.about.skills]
-    enable = false
-    title = "Here are a few technologies I've been working with recently:"
-    items = [ "HTML", "CSS", "JavaScript", "React", "Node", "Express" ]
+    enable = true
+    title = "Áhugasvið og prófanir sem ég hef verið í nýlega eru:"
+    items = [ "Hugo", "Netlify", "Strapi", "Flutter", "Atlassian", "Zappier" ]
 
   [params.experience]
   enable = true
   title = "Reynsla"
 
     [[params.experience.items]]
-    job = "Senior Software Developer"
+    job = "Forritari, Rekstar- og gæðastjóri, yfirmaður hugbúnaðarsviðs"
     company = "Stefna"
     companyUrl = "https://www.stefna.is"
-    date = "2006 - present"
-    content = "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+    date = "2006 - "
+    content = "Byrjaði sem forritari, færði mig yfir í rekstur og gæðamál en svo kallar tæknin alltaf og núverandi staða er yfirmaður hugbúnaðarsviðs."
 
       [params.experience.items.featuredLink]
       enable = true
@@ -108,10 +108,7 @@ url = "https://www.linkedin.com/in/kristjan-aevarsson"
     companyUrl = "https://www.bonus.is"
     date = "1997 - 2003"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+Byrjaði við almenn störf hjá Bónus, en fljótlega verslunarstjóri. Seinna var ég í ýmsum sérverkefnum og þau skemmtilegustu voru að setja upp nýjar búðir.
 """
 
       [params.experience.items.featuredLink]
@@ -126,19 +123,16 @@ I am currently working as a software developer at [example org.](https://example
     job = "Stefna"
     company = "Stjórn"
     companyUrl = "https://www.stefna.is"
-    date = "Jan 2020 - Aug 2020"
+    date = "2016 -"
     content = """
-I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-- Lead backend developer for a product.
-- Created a frontend design for a product.
+Stjórnarformaður frá 2016 til 2021, sit nú sem stjórnarmaður.
 """
 
       [params.experience.items.info]
       enable = false
 
       [params.experience.items.featuredLink]
-      enable = true
+      enable = false
       url = "https://example.com"
 
 
@@ -170,7 +164,7 @@ With major in Project Management.
 
       [params.education.items.featuredLink]
       enable = true
-      name = "SKemman"
+      name = "Skemman"
       url = "https://skemman.is/handle/1946/1181"
 
 
@@ -258,7 +252,7 @@ With major in Project Management.
   enable = true
   title = "Hafa samband"
   content = "Alltaf gaman að heyra í ykkur. Hvort sem það er spurning, hugmyndi eða bara segja halló. Geri mitt besta að svara!"
-  email = "bimmsi@gmail.com"
+  email = "kristjan@kristjan.io"
   btnName = "Sendu mér póst"
 
 [params.footer.recentPosts]
