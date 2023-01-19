@@ -116,7 +116,7 @@ Byrjaði við almenn störf hjá Bónus, en fljótlega verslunarstjóri. Seinna 
       url = "https://example.com"
 
       [params.experience.items.info]
-      enable = true
+      enable = false
       content = "I worked as a software developer for more than one year in Amazon."
 
     [[params.experience.items]]
