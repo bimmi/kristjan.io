@@ -84,7 +84,7 @@ url = "https://www.linkedin.com/in/kristjan-aevarsson"
     [params.about.skills]
     enable = true
     title = "Áhugasvið og prófanir sem ég hef verið í nýlega eru:"
-    items = [ "Hugo", "Netlify", "Strapi", "Flutter", "Atlassian", "Zappier" ]
+    items = [ "Hugo", "Netlify", "Strapi", "Flutter", "Atlassian", "Zapier" ]
 
   [params.experience]
   enable = true
