@@ -102,6 +102,10 @@ url = "https://www.linkedin.com/in/kristjan-aevarsson"
       name = "Verkefnin"
       url = "https://www.stefna.is/is/verkefnin"
 
+      [params.experience.items.info]
+      enable = false
+      content = "I worked as a software developer for more than one year in Amazon."
+
     [[params.experience.items]]
     job = "Verslunarstjóri"
     company = "Bónus"
