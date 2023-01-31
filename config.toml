@@ -59,7 +59,7 @@ animate = true
   title = "Kristján"
   subtitle = "Ævarsson"
   content = ""
-  image = "/images/hero.svg"
+  image = "/images/profile.jpg"
 
     [params.hero.button]
     enable = true
