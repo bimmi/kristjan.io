@@ -75,7 +75,7 @@ url = "https://www.linkedin.com/in/kristjan-aevarsson"
   [params.about]
   enable = true
   title = "Um mig"
-  image = "/images/jokull2.jpg"
+  image = "/images/jokull2.png"
   content = """
 Ég er tölvunarfræðingur með ástríðu fyrir öllu sem kemur að tækni. Hef unnið hjá [Stefnu Hugbúnaðarhúsi](https://www.stefna.is) síðan árið 2006. Byrjaði sem forritari og starfa nú sem yfirmaður hubúnaðarsviðs. 
 
