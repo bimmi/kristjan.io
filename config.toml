@@ -205,7 +205,7 @@ With major in Project Management.
     [[params.projects.items]]
     title = "Hugo Profile"
     content = "A highly customizable and mobile first Hugo template for personal portfolio and blog."
-    image = "/images/projects/profile.png"
+    image = "/images/projects/profile.jpg"
     badges = [ "Hugo", "Bootstrap", "Javascript" ]
 
       [params.projects.items.featured]
