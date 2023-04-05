@@ -29,7 +29,7 @@ weight = 2
 
 [params]
 title = "Kristján Ævarsson"
-description = "Upplýsingar og verkefni"
+description = "Verkefni"
 favicon = "/favicon-16x16.png"
 useBootstrapCDN = false
 animate = true
