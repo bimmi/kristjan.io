@@ -46,6 +46,25 @@
 {{- end }}
 
 <script>
+	const tabs = document.getElementById("pills-tab");
+	const tabButton = document.querySelectorAll(".nav-link");
+	const tabPane = document.querySelectorAll(".tab-pane");
+	tabs.onclick = e => {
+		tabButton.forEach(div => {
+      			div.classList.remove('active');
+    		});
+		e.target.classList.add('active');
+		tabPane.forEach(div => {
+      			div.classList.remove('active');
+      			div.classList.remove('show');
+		});
+		var activePane = document.getElementById(e.target.getAttribute('aria-controls'));
+		activePane.classList.add('active');	
+		activePane.classList.add('show');	
+	};
+</script>
+
+<script>
     let loadingIcons;
 
     function loading() {
