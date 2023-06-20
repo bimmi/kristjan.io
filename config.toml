@@ -59,7 +59,7 @@ animate = true
   title = "Kristján"
   subtitle = "Ævarsson"
   content = ""
-  image = "/images/profile.jpg"
+  image = "/images/profile.webp"
 
     [params.hero.button]
     enable = true
@@ -205,7 +205,7 @@ With major in Project Management.
     [[params.projects.items]]
     title = "Hugo Profile"
     content = "A highly customizable and mobile first Hugo template for personal portfolio and blog."
-    image = "/images/projects/profile.jpg"
+    image = "/images/projects/profile.webp"
     badges = [ "Hugo", "Bootstrap", "Javascript" ]
 
       [params.projects.items.featured]
