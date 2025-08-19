@@ -146,6 +146,16 @@ Stjórnarformaður frá 2016 til 2021, sit nú sem stjórnarmaður.
   title = "Menntun"
 
     [[params.education.items]]
+    title = "AI for Business"
+    date = "2025"
+    content = """
+  """
+
+      [params.education.items.school]
+      name = "Johns Hopkins University"
+      url = "https://www.jhu.edu"
+    
+[[params.education.items]]
     title = "Master's degree, Leadership and Management"
     date = "2020 - 2022"
     content = """
